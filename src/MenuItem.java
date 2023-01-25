@@ -17,6 +17,10 @@ public class MenuItem {
         this.added = LocalDate.now();
     }
 
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
         return category + ": " + name + " - " + description + " | " + price;
